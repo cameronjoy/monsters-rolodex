@@ -42,9 +42,9 @@ class App extends Component{
    })
     return (
       <div className="App">
-        <input className='search-box' type='search' placeholder='search monsters'
+        {/* <input className='search-box' type='search' placeholder='search monsters'
           onChange={this.onSearchChange}  
-        />
+        /> */}
         {/* {filteredMonsters.map((monster) => {
           return <div key={monster.id}>
             <h1>{monster.name}</h1>
